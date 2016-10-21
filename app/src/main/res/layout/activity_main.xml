@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp">
+
+
+    //-------------------------------------//
+    //POWER BUTTONS: W1D4                  //
+    //-------------------------------------//
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewfisrtscreen"
+
+        android:layout_weight="0.02" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_weight="0.02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Power2 "
+        android:onClick="power2"/>
+
+    <Button
+        android:text="Power3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_weight="0.02"
+        android:onClick="power3"/>
+
+    <Button
+        android:text="Power4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_weight="0.02"
+        android:onClick="power4"/>
+
+</LinearLayout>
+
+
